@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SNote</string>
+    <string name="title_activity_noteby_catagory">NotebyCatagory</string>
+    <string name="title_activity_tampil">Tampil</string>
+</resources>

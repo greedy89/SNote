@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.NotebyCatagory"
+    tools:showIn="@layout/activity_noteby_catagory">
+
+    <TextView
+        android:id="@+id/txtCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bubblegum_sans"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:text="Notes"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="30dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtCategory"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>
